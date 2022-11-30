@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/yqm8vkp.css");
+
+body{
+    /* css goes here */
+   background-color: #f7f8f8; 
+   /* background-image:url("Sterre_Witlox_Photo_July_2021.jpg"); */
+   font-family: muli,sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 12px;
+   letter-spacing: normal;
+   color: rgb(0, 0, 0);
+   /* color = font colour */
+}
+
+h1{
+    font-family:"utopia-std-headline";
+    font-size: 48px;
+    color:#b14825;
+    margin-left: 20%;
+    /* right:80px; */
+    /* left:80px; */
+    width:70%;
+    /* border: 5px solid#b14825; */
+    padding: 0px;
+}
+h2{
+    font-family:"muli",sans-serif;
+    font-size: 16px;
+    color:#86a2ac;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* right:80px; */
+    /* left:80px; */
+    /* border: 5px solid#b14825; */
+    padding-bottom: 10px;
+}
+p{
+    /* width:70%; */
+    margin-left:20%;
+    margin-right: 20%;
+}
+img{
+    margin-left:20%;
+    padding-bottom: 10px;
+}
+/* basic styling links */
+a{
+    font-family: muli,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: normal;
+    color: #86a2ac;
+    text-decoration: none;
+}
+
+
+/* LoVe = Link, Visited. HAte = Hover, Active. */
+a:link, a:visited{
+
+}
+
+a:hover,a:active{
+  color:#b14825;
+}
+
+.party{
+   margin-bottom: 50px; 
+   
+}
+.TU_link{
+    font-family:"muli",sans-serif;
+    font-size: 16px;
+    font-weight:600;
+}
