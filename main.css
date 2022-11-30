@@ -3,12 +3,12 @@
 body{
     /* css goes here */
    background-color: #f7f8f8; 
-   /* background-image:url("Sterre_Witlox_Photo_July_2021.jpg"); */
+   background-image:url("./camera\ images\ background\ flipped.jpg");
    font-family: muli,sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 12px;
-   letter-spacing: normal;
+   font-size: 14px;
+   letter-spacing: normal; 
    color: rgb(0, 0, 0);
    /* color = font colour */
 }
@@ -23,6 +23,7 @@ h1{
     width:70%;
     /* border: 5px solid#b14825; */
     padding: 0px;
+    margin-bottom: 0px;
 }
 h2{
     font-family:"muli",sans-serif;
@@ -37,40 +38,53 @@ h2{
 }
 p{
     /* width:70%; */
-    margin-left:20%;
-    margin-right: 20%;
+    /* margin-left:20%;
+    margin-right: 20%; */
+    padding: 0px;
+    margin-top: 0px;
 }
 img{
-    margin-left:20%;
-    padding-bottom: 10px;
+    /* margin-left:20%; */
+    width: 250px;
+    padding-right:30px;
+    margin-top:2px;
+    /* solving small displacement between lowecase font and image top */
 }
 /* basic styling links */
 a{
     font-family: muli,sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: normal;
     color: #86a2ac;
     text-decoration: none;
 }
-
-
 /* LoVe = Link, Visited. HAte = Hover, Active. */
-a:link, a:visited{
-
-}
-
+/* a:link, a:visited{
+    color: #b14825;
+} */
 a:hover,a:active{
   color:#b14825;
 }
-
 .party{
    margin-bottom: 50px; 
-   
 }
 .TU_link{
     font-family:"muli",sans-serif;
     font-size: 16px;
     font-weight:600;
 }
+/* This gets your boxes next to each other */
+.container{
+    margin-right: 20%;
+    margin-left: 20%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* .image{
+    float:left;
+    width: 250px;
+    padding-right:40px;
+} */
